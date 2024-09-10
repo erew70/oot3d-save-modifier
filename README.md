@@ -5,6 +5,6 @@ You can add certain items, weapons, medallions, and more! For example you could 
 
 Contribution:
 
-Send me snapshots (copy of your save file) after you obtain an item or completed a dungeon, we can compare it to a blank savefile and add it to this modifier. Making multiple saves with different names is also helpful (might add name editor)
+Send me snapshots (copy of your save file) after you obtain an item or completed a dungeon, we can compare it to a blank savefile and add it to this modifier. AND PLEASE, PLEASE add a detailed explanation and explain as much as you can (completed deku tree, got slingshot, etc) Making multiple saves with different names is also helpful (might add name editor)
 
 Send me your snapshots at my discord: erew0962

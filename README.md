@@ -16,7 +16,7 @@ How saving works: (crc checksum generation)
 
 Your save file is put through the CRC-16 algorithim with the last 4 bytes removed, (the old checksum) it is then reversed and replaces the old one
 
-For example, my CRC-16 that was just generated is 3F2E, to get it to validate we must flip it to 2E3F, this checksum is filled in the first 2 bytes of the last 4 bytes of your save
+For example, my CRC-16 that was just generated is 3F2E, to get it to validate we must flip it to 2E3F, this checksum is filled in the first 2 bytes of the last 4 bytes of your save, the last 2 bytes must be 0's
 
 Contribution:
 

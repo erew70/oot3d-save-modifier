@@ -12,6 +12,12 @@ Intial Saving without corruption:  (CRC checksum gen) ❌
 
 CRC Checksum gen is broken 
 
+How saving works: (crc checksum generation)
+
+Your save file is put through the CRC-16 algorithim with the last 4 bytes removed, (the old checksum) it is then reversed and replaces the old one
+
+For example, my CRC-16 that was just generated is 3F2E, to get it to validate we must flip it to 2E3F, this checksum is filled in the first 2 bytes of the last 4 bytes of your save
+
 Contribution:
 
 Send me snapshots (copy of your save file) after you obtain an item, completed a dungeon, or anything that is progressive towards the game. We can compare it to a blank savefile and add it to this modifier. AND PLEASE, PLEASE add a detailed explanation and explain as much as you can (completed deku tree, got slingshot, etc) Making multiple saves with different names is also helpful (might add name editor)

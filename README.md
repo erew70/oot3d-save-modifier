@@ -8,7 +8,9 @@ What has been implemented so far:
 
 Skip opening cutscene ✅
 
-Intial Saving without corruption:  (CRC checksum gen) ✅
+Intial Saving without corruption:  (CRC checksum gen) ❌
+
+CRC Checksum gen is broken 
 
 Contribution:
 

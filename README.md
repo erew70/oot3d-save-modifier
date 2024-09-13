@@ -1,3 +1,6 @@
+# Notice
+i just wanted to get it out, even if you didnt want to know. MM3D saves are handled completely differently from OOT3D saves, so the same saving implementation and/or bytes cannot be used with majoras mask. Do not even think about trying!
+
 # oot3d-save-modifier
 
 (Currently being worked on!) Ocarina of time 3d save modifier is a tool that mimics the saving of the game with extra options

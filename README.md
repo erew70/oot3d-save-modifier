@@ -11,9 +11,9 @@ What has been implemented so far:
 
 Skip opening cutscene ✅
 
-Intial Saving without corruption:  (CRC checksum gen) ❌
+Intial Saving without corruption:  (CRC checksum gen) ✅
 
-CRC Checksum gen is broken 
+CRC Checksum gen has been fixed, i will continue working on this!
 
 How saving works: (crc checksum generation)
 

@@ -1,25 +1,6 @@
 # Notice
-i just wanted to get it out, even if you didnt want to know. MM3D saves are handled completely differently from OOT3D saves, so the same saving implementation and/or bytes cannot be used with majoras mask. Do not even think about trying!
+DO NOT USE THIS BRANCH AS IT IS UNSTABLE AND MAY BE BROKEN! WAIT TILL FURTHER NOTICE
 
-# oot3d-save-modifier
-
-(Currently being worked on!) Ocarina of time 3d save modifier is a tool that mimics the saving of the game with extra options
-
-You can add certain items, weapons, medallions, and more! For example you could add that you have completed the deku tree to your save file, add that you have obtained a GS (gold skulltula), and even obtain things like dungeoun-specific maps, dungeoun-specific compasses, tunics, obtainbles (such as the gerudo token), and spiritual stones. You get the idea. 
-
-What has been implemented so far:
-
-Skip opening cutscene ✅
-
-Intial Saving without corruption:  (CRC checksum gen) ✅
-
-CRC Checksum gen has been fixed, i will continue working on this!
-
-How saving works: (crc checksum generation)
-
-Your save file is put through the CRC-16 algorithim with the last 4 bytes removed, (the old checksum) it is then reversed and replaces the old one
-
-For example, my CRC-16 that was just generated is 3F2E, to get it to validate we must flip it to 2E3F, this checksum is filled in the first 2 bytes of the last 4 bytes of your save, the last 2 bytes must be 0's
 
 Contribution:
 

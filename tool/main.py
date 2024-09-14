@@ -41,4 +41,4 @@ main()
 
 
 
-# calculate_and_insert_checksum(file_path)
+# calculate_and_insert_checksum(file_path) this was scrapped and was used in the old crc implementation, ignore this

@@ -2,7 +2,7 @@
 
 DO NOT USE THIS BRANCH AS IT IS UNSTABLE AND MAY BE BROKEN! WAIT TILL FURTHER NOTICE
 
-this branch so far only contains the pc version of this tool (citra)
+this branch so far only contains the (partial) pc version of this tool (citra) as this is used as the base for testing purposes 
 
 
 Contribution:

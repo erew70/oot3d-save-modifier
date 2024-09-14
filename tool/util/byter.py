@@ -18,17 +18,3 @@ def inject_bytes(filename, start_offset, end_offset, bytes_to_inject):
         file.write(new_content)
         file.truncate()  # Truncate the file to the new length if necessary
 
-
-
-# Example usage
-if __name__ == "__main__":
-    # File path
-    file_path = 'example.bin'
-
-    # Offsets and bytes to inject
-    start = 10
-    end = 20
-    bytes_to_inject = b'\xDE\xAD\xBE\xEF'  # Example bytes to inject
-
-    inject_bytes(file_path, start, end, bytes_to_inject)
-    print(f"Bytes injected into {file_path} between offsets {start} and {end}.")

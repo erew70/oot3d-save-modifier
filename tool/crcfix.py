@@ -1,3 +1,5 @@
+# this would zero out the checksum, because half the time if i were to zero it out in HxD then generate with main.py it would get the correct one, then it broke all of a sudden
+
 def zero_last_4_bytes(filename):
     try:
         # Open the file in read-write binary mode

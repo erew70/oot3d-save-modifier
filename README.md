@@ -1,5 +1,8 @@
 # Notice
+
 DO NOT USE THIS BRANCH AS IT IS UNSTABLE AND MAY BE BROKEN! WAIT TILL FURTHER NOTICE
+
+this branch so far only contains the pc version of this tool (citra)
 
 
 Contribution:

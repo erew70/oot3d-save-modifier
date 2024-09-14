@@ -10,7 +10,7 @@ def show_menu():
     print("3. exit")
 
 def skip_scene():
-   # inject_bytes(file_path, skip_opening_offsets_1, skip_opening_offsets_2, skip_opening_cutscene_bytes_1)
+   # inject_bytes(file_path, skip_opening_offsets_1, skip_opening_offsets_2, skip_opening_cutscene_bytes_1) this causes partial save wiping???
     inject_bytes(file_path,skip_opening_offsets_2, skip_opening_offsets_3, skip_opening_cutscene_bytes_2)
     inject_bytes(file_path,skip_opening_offsets_4, skip_opening_offsets_5, skip_opening_cutscene_bytes_3)
     print("done")
